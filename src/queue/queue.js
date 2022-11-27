@@ -146,7 +146,7 @@ function QueueLowFootprint() {
     pop: this.pop,
 
     size: this.size,
-    peek: this.peek(0),
+    peek: () => this.peek(0),
     seek: (index) => this.items[index],
     clear: this.clear
   };
@@ -187,6 +187,9 @@ function QueueLowFootprint() {
     removeAtIndex: this.remove,
     removeItem: this.removeItem,
 
+    size: this.size,
+    peek: () => this.peek(this.items.length - 1),
+    seek: (index) => this.items[index],
     clear: this.clear
   }
 
@@ -206,7 +209,7 @@ function QueueLowFootprint() {
     removeItem: this.removeItem,
 
     size: this.size,
-    peek: () => this.peek(this.items.length - 1),
+    peek: () => this.peek(0),
     seek: (index) => this.items[index],
     clear: this.clear
   }
