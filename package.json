@@ -3,8 +3,15 @@
   "version": "0.0.1",
   "description": "Scale concurrency with threads, processes, rxjs, and queues in nodejs",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
