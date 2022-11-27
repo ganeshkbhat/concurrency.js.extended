@@ -15,3 +15,4 @@
         - [] https://www.npmjs.com/package/concurrency-queue
         - [] https://www.npmjs.com/package/@sebowy/concurrent-queue
 
+- remove packages - "denque": "^2.1.0", "synchronization-js": "^1.0.4"
