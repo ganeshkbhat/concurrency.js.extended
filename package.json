@@ -1,0 +1,41 @@
+{
+  "name": "scale.concurrency",
+  "version": "0.0.1",
+  "description": "Scale concurrency with threads, processes, rxjs, and queues in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshkbhat/concurrency.js.extended.git"
+  },
+  "keywords": [
+    "scale",
+    "concurrency",
+    "threads",
+    "processes",
+    "rxjs",
+    "queues",
+    "nodejs"
+  ],
+  "author": "Ganesh Bhat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshkbhat/concurrency.js.extended/issues"
+  },
+  "homepage": "https://github.com/ganeshkbhat/concurrency.js.extended#readme",
+  "dependencies": {
+    "concurrency.js": "^0.0.23-beta",
+    "rxjs": "^7.5.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "npm-check": "^3.2.10",
+    "nsp": "^2.8.1",
+    "nsp-api": "^1.0.3",
+    "sinon": "^14.0.2",
+    "unimported": "^1.23.0"
+  }
+}

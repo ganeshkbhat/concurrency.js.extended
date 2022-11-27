@@ -1,0 +1,5 @@
+[TODO]
+
+- [] Consider RX.js features inbuilt https://github.com/reactivex/rxjs
+    - [] Consider base functions like - Limit, Debounce, Throttle, Queue https://www.npmjs.com/package/p-limit
+
