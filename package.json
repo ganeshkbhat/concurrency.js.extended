@@ -24,7 +24,18 @@
     "processes",
     "rxjs",
     "queues",
-    "nodejs"
+    "nodejs",
+    "queue",
+    "queues",
+    "start",
+    "ended",
+    "queue",
+    "start ended lifo",
+    "start ended fifo",
+    "end ended lifo",
+    "end ended fifo",
+    "double ended queue",
+    "semaphore queue"
   ],
   "author": "Ganesh Bhat",
   "license": "MIT",
@@ -34,7 +45,7 @@
   "homepage": "https://github.com/ganeshkbhat/concurrency.js.extended#readme",
   "dependencies": {
     "concurrency.js": "^0.0.23-beta",
-    "queues.js": "0.0.2-beta",
+    "queues.js": "0.0.22-beta",
     "rxjs": "^7.5.7"
   },
   "devDependencies": {
