@@ -1,18 +1,45 @@
 [TODO]
 
-- [] Consider RX.js features inbuilt https://github.com/reactivex/rxjs
-    - [] Consider base functions like 
-        - Limit, Debounce, Throttle, Queue https://www.npmjs.com/package/p-limit
-        - [] https://www.npmjs.com/package/promise-throttle-all
-        - [] https://www.npmjs.com/package/concurrent-task
-        - [] https://www.npmjs.com/package/concurrencylimit
-    - [] Consider something similar or put as dependency https://www.npmjs.com/package/rx-queue
-    - [] https://www.npmjs.com/package/node-traffic
-    - Queues
-        - [] https://www.npmjs.com/package/partition-queue
-        - [] https://www.npmjs.com/package/rx-queue
-        - [] https://www.npmjs.com/package/task-queue
-        - [] https://www.npmjs.com/package/concurrency-queue
-        - [] https://www.npmjs.com/package/@sebowy/concurrent-queue
+- Concurrency Use Cases:
+    
+    - Reconsider Base Use case:
+        - Processes Implements
+        - Thread Implements
+            - Thread
+            - Consider ? Runnable
+            - Consider ? Executor [No Multithreading in Java]
+            - Consider ? (ExecutorService)
+            - Consider ? Callable
+        - Cluster/ Pool Implements
 
-- remove packages - "denque": "^2.1.0", "synchronization-js": "^1.0.4"
+    - Pool[Cluster] Use Cases: 
+        - w Queue
+        - w/o Queue
+    
+    - Pool[Cluster] Use Case: 
+
+        - MultiProcessing:
+            - Bases:
+                - thread
+                - process
+                - cluster
+            - Use Cases:
+                - Consider ? normal way, cached way
+
+    - Extended Features:
+        - Pool[Cluster] Size (Size control plus limits):
+
+            - PreDecided: 
+                - Single + Multi Fixed Pool[Cluster]
+                - User Argument
+            - AutoDecide:
+                - AutoScalable/ Flexi/ Dynamic decision 
+                - Algorithm/ Custom user function decision
+                - OS Based decision
+
+    - Pool[Cluster] Use Cases:
+        - Creation:
+            - Not precreated + Lazy on-demand creation - (JIT)
+            - Pre-Created + Keep running 
+            - Close pools and Recreate on Need - (JIT)
+
