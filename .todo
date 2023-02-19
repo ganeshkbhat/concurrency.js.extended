@@ -43,3 +43,13 @@
             - Pre-Created + Keep running 
             - Close pools and Recreate on Need - (JIT)
 
+Concurrency:
+    async+ - A chainable interface for Swift 5.5's async/await.
+    AsyncNinja - A complete set of concurrency and reactive programming primitives.
+    Futures  - Lightweight promises for iOS, macOS, tvOS, watchOS, and server-side.
+    GroupWork  - Easy concurrent, asynchronous tasks.
+    Hydra - Promises & Await - Write better async code.
+    Queuer  - A queue manager, built on top of OperationQueue and Dispatch (aka GCD).
+    SwiftCoroutine - Coroutines for iOS, macOS and Linux.
+    Throttler - Throttle massive number of asynchronous inputs in a single drop of one line API.
+    Venice - Communicating sequential processes (CSP), Linux ready.
