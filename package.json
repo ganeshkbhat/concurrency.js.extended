@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/ganeshkbhat/concurrency.js.extended#readme",
   "dependencies": {
-    "concurrency.js": "^0.0.3-beta",
+    "concurrency.js": "^0.0.3",
     "queues.js": "0.0.22",
     "rxjs": "^7.5.7"
   },
