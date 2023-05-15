@@ -46,7 +46,9 @@
   "dependencies": {
     "concurrency.js": "^0.0.3",
     "queues.js": "0.0.22",
-    "rxjs": "^7.5.7"
+    "rxjs": "^7.5.7",
+    "@supercharge/pipeline": "^1.4.0",
+    "@supercharge/promise-pool": "^2.4.0"
   },
   "devDependencies": {
     "chai": "^4.3.7",
